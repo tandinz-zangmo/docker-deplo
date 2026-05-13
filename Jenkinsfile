@@ -13,12 +13,12 @@ pipeline {
         //     }
         // }
 
-        stage('Install Dependencies & Test') {
-            steps {
-                sh 'pip install flask pytest'
+        // stage('Install Dependencies & Test') {
+        //     steps {
+        //         sh 'pip install flask pytest'
                 
-            }
-        }
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {
