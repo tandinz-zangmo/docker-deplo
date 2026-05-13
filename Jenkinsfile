@@ -7,11 +7,11 @@ pipeline {
 
     stages {
         
-        stage('Clone Repo') {
-            steps {
-                sh 'git clone https://github.com/tandinz-zangmo/docker-deplo.git'
-            }
-        }
+        // stage('Clone Repo') {
+        //     steps {
+        //         sh 'git clone https://github.com/tandinz-zangmo/docker-deplo.git'
+        //     }
+        // }
 
         stage('Install Dependencies & Test') {
             steps {
